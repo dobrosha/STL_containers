@@ -32,10 +32,6 @@ namespace s21 {
             ListIterator operator--(int);
             bool operator==(const ListIterator &other) const;
             bool operator!=(const ListIterator &other) const;
-//            bool operator<(const ListIterator &other) const;
-//            bool operator<=(const ListIterator &other) const;
-//            bool operator>(const ListIterator &other) const;
-//            bool operator>=(const ListIterator &other) const;
 
         protected:
             typename deque<T>::Node *node_;
@@ -481,6 +477,6 @@ namespace s21 {
     }
 } // namespace s21
 
-#include "s21_list.tpp"
+//#include "s21_list.tpp"
 
 #endif //SRC_S21_info_H

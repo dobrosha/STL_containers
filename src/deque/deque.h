@@ -5,7 +5,7 @@
 
 namespace s21 {
     template<typename T>
-    // Реализация двусвязного списка
+    // Реализация двусвязного списка / двустронней очереди (double-ended queue)
     class deque {
     public:
         using value_type = T;

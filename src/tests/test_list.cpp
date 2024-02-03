@@ -283,7 +283,7 @@ TEST(List, Merge3) {
 //    std::cout << std::endl;
 //    for (auto it = our_list_first.begin(); it != our_list_first.end(); ++it) {
 //        std::cout << *it << std::endl;
-    }
+//    }
 }
 
 TEST(List, Reverse) {
