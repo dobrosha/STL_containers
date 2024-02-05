@@ -10,12 +10,8 @@ namespace s21 {
     template<typename T>
     vector<T>::vector(size_type n) : data_(new value_type[n]), size_(n), capacity_(n) {
         if (n < 0) {
-//            throw std::bad_alloc;
             throw std::length_error("LengthError: Vector length is negative");
         }
-//        for (int i = 0; i < n; i++) {
-//            data_[i] = 0;
-//        }
         std::fill_n(data_, size_, 0);
     }
 

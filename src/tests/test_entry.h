@@ -4,6 +4,6 @@
 #include <gtest/gtest.h>
 
 #include "../s21_containers.h"
-//#include "../s21_containersplus.h"
+#include "../s21_containersplus.h"
 
 #endif //SRC_TEST_ENTRY_H
